@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #515356;
+    background-image: url(/image/cold.jpg);
+}
+header{
+    margin-top: 10px;
+    text-align: center;
+}
+#container{
+    width: 40%;
+    height: 40vw;
+    background-color: #515356bb;
+    margin: 50px auto;
+}
+#img{
+    position: relative;
+    top: 80px;
+    margin: auto;
+    background-color: #ffffffbb;
+    width: 90%;
+    height: 20vw;
+    border-radius: 50%;
+}
+.image{
+    width: 100%;
+    border-radius: 50%;
+}
+#audio{
+    position: relative;
+    top: 15%;
+    margin: auto;
+    width: 90%;
+    height: 10vw;
+
+    background-color: brown;
+}
+#o{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    margin-top: 10px;
+    /* opacity: 0; */
+}
+.btn{
+    width: 80px;
+    position: relative;
+    left: 12vw;
+    bottom: 15px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+.display_image{
+    width: 100%;
+}

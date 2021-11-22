@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tocador de Música</title>
+</head>
+<body>
+    <main>
+        <div  id="container">
+            <header>
+                <h1>Yellow - Coldplay</h1>
+            </header>
+           <div id="img">
+                <img class="image" src="image/coldyellow.jpg" alt="yellow">
+           </div>
+            <div id="audio">
+                <audio id="o" controls>
+                    <source id="s1" src="assets/Coldplay  -  Yellow.mp3" type="audio/mpeg">
+                </audio>
+                <br>
+                <button class="btn"><img class="display_image" src="image/before.png" alt="antes"></button>
+                <button onclick="playMusic()" id="play" class="btn"><img id="pl" class="display_image" src="image/play.png" alt="play"></button>
+                <button id="proximo" class="btn"><img class="display_image" src="image/next.png" alt="proximo"></button>
+            </div>
+        </div>
+
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
