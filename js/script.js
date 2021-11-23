@@ -12,14 +12,14 @@ image = document.getElementById("pl")
 var duracaoMusica = document.querySelector(".fim")
 
 var songsCollection = [
-    {nome: "Yellow", artista: "Coldplay", img: "../image/Coldyellow.jpg", src: "../assets/Coldplay  -  Yellow.mp3", fundo: "../image/cold.jpg"},
-    {nome: "Stressed Out", artista: "Twenty One Pilots", img: "../image/stressedout.jpg", src: "../assets/Stressed Out.mp3", fundo: "../image/fundoStressed.jpg"},
-    {nome: "In The End", artista: "Linkin Park", img: "../image/intheend.jpg", src: "../assets/In The End.mp3", fundo: "../image/fundolinkinpark.jpg"},
-    {nome: "The Scientist", artista: "Coldplay", img: "../image/scientist.jpg", src: "../assets/The Scientist.mp3", fundo: "../image/cold.jpg"},
-    {nome: "Let Her Go", artista: "Passenger", img: "../image/lether.jpg", src: "../assets/Let Her Go.mp3", fundo: "../image/lethergo.jpg"},
-    {nome: "Send Me An Angel", artista: "Scorpions", img: "../image/scorpions.jpg", src: "../assets/Send Me An Angel.mp3", fundo: "../image/fundoscorpions.jpg"},
-    {nome: "Bring Me To Life", artista: "Evanescence", img: "../image/bring.jpg", src: "../assets/Bring me to life.mp3", fundo: "../image/fundobring.jpg"},
-    {nome: "Come As You Are", artista: "Nirvana", img: "../image/nirvana.jpg", src: "../assets/Come As You Are.mp3", fundo: "../image/fundonirvana.jpg"}
+    {nome: "Yellow", artista: "Coldplay", img: "image/Coldyellow.jpg", src: "assets/Coldplay  -  Yellow.mp3", fundo: "image/cold.jpg"},
+    {nome: "Stressed Out", artista: "Twenty One Pilots", img: "image/stressedout.jpg", src: "assets/Stressed Out.mp3", fundo: "image/fundoStressed.jpg"},
+    {nome: "In The End", artista: "Linkin Park", img: "image/intheend.jpg", src: "assets/In The End.mp3", fundo: "image/fundolinkinpark.jpg"},
+    {nome: "The Scientist", artista: "Coldplay", img: "image/scientist.jpg", src: "assets/The Scientist.mp3", fundo: "image/cold.jpg"},
+    {nome: "Let Her Go", artista: "Passenger", img: "image/lether.jpg", src: "assets/Let Her Go.mp3", fundo: "image/lethergo.jpg"},
+    {nome: "Send Me An Angel", artista: "Scorpions", img: "image/scorpions.jpg", src: "assets/Send Me An Angel.mp3", fundo: "image/fundoscorpions.jpg"},
+    {nome: "Bring Me To Life", artista: "Evanescence", img: "image/bring.jpg", src: "assets/Bring me to life.mp3", fundo: "image/fundobring.jpg"},
+    {nome: "Come As You Are", artista: "Nirvana", img: "image/nirvana.jpg", src: "assets/Come As You Are.mp3", fundo: "image/fundonirvana.jpg"}
 ]
 loaderMusica(indexMusica)
 
