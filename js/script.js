@@ -87,11 +87,3 @@ function segundosparaMinutos(segundos){
     }
     return campoMinutos + ':' + campoSegundos
 }
-function passarMusica(){
-    
-    if(musica.duration == segundosparaMinutos(Math.floor(musica.duration))){
-        indexMusica++
-        loaderMusica(indexMusica)
-        playMusic(indexMusica)
-    }
-}
