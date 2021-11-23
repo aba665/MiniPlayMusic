@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/Music.png">
     <title>Tocador de Música</title>
 </head>
-<body>
+<body id="corpo">
     <main>
         <div  id="container">
             <header>
-                <h1 id="nome">Yellow - Coldplay</h1>
+                <h1 id="nome">Nome da Música</h1>
+                <p id="Artista">Artista</p>
             </header>
-           <div id="img">
-                <img class="image" src="image/coldyellow.jpg" alt="yellow">
+           <div class="imgcontainer">
+                <img  id="img" alt="imagem">
            </div>
             <div id="audio">
                 <audio id="o" controls>
-                    <source id="s1" src="assets/Coldplay  -  Yellow.mp3" type="audio/mpeg">
+                    
                 </audio>
                 <br>
                 <div class="duracao">
@@ -31,7 +33,7 @@
                         <p class="fim"><strong>4:32</strong></p>
                     </div>
                 </div>
-                <button class="btn "><img class="display_image" src="image/before.png" alt="antes"></button>
+                <button  id="anterior" class="btn "><img class="display_image" src="image/before.png" alt="antes"></button>
                 <button onclick="playMusic()" id="play" class="btn"><img id="pl" class="display_image" src="image/play.png" alt="play"></button>
                 <button id="proximo" class="btn"><img class="display_image" src="image/next.png" alt="proximo"></button>
             </div>

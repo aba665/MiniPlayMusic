@@ -5,24 +5,30 @@
 }
 body{
     width: 100%;
-    background-color: #515356;
-    background-image: url(/image/cold.jpg);
 }
 header{
+    background-color: #a52a2abb;
     margin-top: 10px;
     text-align: center;
+    color: cornsilk;
+}
+#Artista{
+    font-size: 25px;
+    font: bold;
 }
 #container{
     width: 40%;
-    height: 40vw;
+    height: 42vw;
     background-color: #515356bb;
     margin: 50px auto;
 }
+.imgcontainer{
+    margin-left: 10%;
+}
 #img{
     position: relative;
-    top: 80px;
+    top: 50px;
     margin: auto;
-    background-color: #ffffffbb;
     width: 90%;
     height: 20vw;
     border-radius: 50%;
@@ -35,10 +41,10 @@ header{
     position: relative;
     top: 15%;
     margin: auto;
-    width: 90%;
+    width: 100%;
     height: 10vw;
-
-    background-color: brown;
+    border-radius: 6px;
+    background-color: #a52a2abb;
 }
 #o{
     position: relative;
@@ -50,7 +56,7 @@ header{
 .btn{
     width: 80px;
     position: relative;
-    left: 12vw;
+    left: 14vw;
     bottom: 2px;
     background: #515156;
     border-radius: 50%;
@@ -71,22 +77,83 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    background-color: blueviolet;
 }
 progress{
     height: 14px;
     width: 0;
-    background-color: blue;
 }
 .ponto{
     width: 20px;
     height: 20px;
-    background-color: aquamarine;
+    background-color: black;
     border-radius: 50%;
     margin-left: -2px;
 }
 .tempo{
+    color: cornsilk;
     margin: auto;
     width: 80%;
     display: flex;
     justify-content: space-between;
 }
+@media(min-width: 320px) and (max-width: 900px){
+    #container{
+        width: 80%;
+        height: 100vw;
+        background-color: #515356bb;
+        margin: 50px auto;
+    }
+    .btn{
+        width: 10vw;
+        position: relative;
+        left: 19vw;
+        top: 20px;
+        background: #515156;
+        border-radius: 50%;
+        border: 2px solid blueviolet;
+        cursor: pointer;
+    
+        
+    }
+    #audio{
+        position: relative;
+        top: 15%;
+        margin: auto;
+        width: 90%;
+        height: 40vw;
+        border-radius: 6px;
+        background-color: #a52a2abb;
+    }
+}
+    @media(min-width: 901px) and (max-width: 1620px){
+
+        #container{
+            width: 60%;
+            height: 80vw;
+            background-color: #515356bb;
+            margin: 50px auto;
+        }
+        .btn{
+            width: 8vw;
+            position: relative;
+            left: 14vw;
+            top: 30px;
+            background: #515156;
+            border-radius: 50%;
+            border: 2px solid white;
+            cursor: pointer;
+        
+            
+        }
+        #audio{
+            position: relative;
+            top: 15%;
+            margin: auto;
+            width: 90%;
+            height: 30vw;
+            border-radius: 6px;
+            background-color: #a52a2abb;
+        }
+    }
+
