@@ -111,7 +111,7 @@ progress{
         top: 20px;
         background: #515156;
         border-radius: 50%;
-        border: 2px solid blueviolet;
+        border: 2px solid white;
         cursor: pointer;
     
         
@@ -130,7 +130,7 @@ progress{
 
         #container{
             width: 40%;
-            height: 55vw;
+            height: 40vw;
             background-color: #515356bb;
             margin: 50px auto;
         }
@@ -138,7 +138,7 @@ progress{
             width: 4vw;
             position: relative;
             left: 12vw;
-            top: 30px;
+            top: 5px;
             background: #515156;
             border-radius: 50%;
             border: 2px solid white;
@@ -151,9 +151,17 @@ progress{
             top: 15%;
             margin: auto;
             width: 90%;
-            height: 20vw;
+            height: 10vw;
             border-radius: 6px;
             background-color: #a52a2abb;
+        }
+        #img{
+            position: relative;
+            top: 30px;
+            margin: auto;
+            width: 90%;
+            height: 15vw;
+            border-radius: 50%;
         }
     }
 
