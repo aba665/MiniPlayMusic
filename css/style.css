@@ -18,7 +18,7 @@ header{
 }
 #container{
     width: 40%;
-    height: 42vw;
+    height: 50vw;
     background-color: #515356bb;
     margin: 50px auto;
 }
@@ -54,7 +54,7 @@ header{
     display: none;
 }
 .btn{
-    width: 80px;
+    width: 70px;
     position: relative;
     left: 14vw;
     bottom: 2px;
@@ -129,15 +129,15 @@ progress{
     @media(min-width: 901px) and (max-width: 1620px){
 
         #container{
-            width: 60%;
-            height: 80vw;
+            width: 40%;
+            height: 55vw;
             background-color: #515356bb;
             margin: 50px auto;
         }
         .btn{
-            width: 8vw;
+            width: 4vw;
             position: relative;
-            left: 14vw;
+            left: 12vw;
             top: 30px;
             background: #515156;
             border-radius: 50%;
@@ -151,7 +151,7 @@ progress{
             top: 15%;
             margin: auto;
             width: 90%;
-            height: 30vw;
+            height: 20vw;
             border-radius: 6px;
             background-color: #a52a2abb;
         }

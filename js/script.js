@@ -12,7 +12,7 @@ image = document.getElementById("pl")
 var duracaoMusica = document.querySelector(".fim")
 
 var songsCollection = [
-    {nome: "Yellow", artista: "Coldplay", img: "image/Coldyellow.jpg", src: "assets/Coldplay  -  Yellow.mp3", fundo: "image/cold.jpg"},
+    {nome: "Yellow", artista: "Coldplay", img: "image/coldyellow.jpg", src: "assets/Coldplay  -  Yellow.mp3", fundo: "image/cold.jpg"},
     {nome: "Stressed Out", artista: "Twenty One Pilots", img: "image/stressedout.jpg", src: "assets/Stressed Out.mp3", fundo: "image/fundoStressed.jpg"},
     {nome: "In The End", artista: "Linkin Park", img: "image/intheend.jpg", src: "assets/In The End.mp3", fundo: "image/fundolinkinpark.jpg"},
     {nome: "The Scientist", artista: "Coldplay", img: "image/scientist.jpg", src: "assets/The Scientist.mp3", fundo: "image/cold.jpg"},
@@ -77,7 +77,7 @@ function atualizarBarra(){
     barra.style.width = Math.floor((musica.currentTime / musica.duration) * 100) + '%'
     let tempoDecorrido = document.querySelector(".inicio")
     tempoDecorrido.textContent = segundosparaMinutos(Math.floor(musica.currentTime))
-    passarMusica(indexMusica)
+
 }
 function segundosparaMinutos(segundos){
     let campoMinutos = Math.floor(segundos / 60)
