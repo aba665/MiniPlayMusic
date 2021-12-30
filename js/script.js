@@ -87,3 +87,14 @@ function segundosparaMinutos(segundos){
     }
     return campoMinutos + ':' + campoSegundos
 }
+function passarMusic(){
+    if(musica.currentTime ===  musica.duration){
+        indexMusica++
+        loaderMusica(indexMusica)
+        playMusic()
+    }
+}
+setInterval(() => {
+    passarMusic()
+    
+}, 10000)

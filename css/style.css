@@ -97,10 +97,10 @@ progress{
     display: flex;
     justify-content: space-between;
 }
-@media(min-width: 320px) and (max-width: 900px){
+@media(min-width: 320px) and (max-width: 640px){
     #container{
         width: 80%;
-        height: 100vw;
+        height: 85vw;
         background-color: #515356bb;
         margin: 50px auto;
     }
@@ -121,9 +121,21 @@ progress{
         top: 15%;
         margin: auto;
         width: 90%;
-        height: 40vw;
+        height: 30vw;
         border-radius: 6px;
         background-color: #a52a2abb;
+    }
+}
+@media(min-width: 641px) and (max-width: 900px){
+    .btn{
+        width: 4vw;
+        left: 14vw;
+        top: 0;   
+    }
+    #container{
+        width: 40%;
+        height: 60vw;
+
     }
 }
     @media(min-width: 901px) and (max-width: 1620px){
@@ -164,4 +176,4 @@ progress{
             border-radius: 50%;
         }
     }
-
+  
